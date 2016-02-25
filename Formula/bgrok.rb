@@ -1,8 +1,8 @@
 class Bgrok < Formula
   desc "Self hosted fork of ngrok at bscharm.com"
   homepage "https://github.com/bscharm/bgrok"
-  url "https://github.com/bscharm/bgrok/archive/1.7.3.tar.gz"
-  sha256 "6eca40898b2051c2376e10655821d330ebd725ff9572d33aa41348c03ed8249c"
+  url "https://github.com/bscharm/bgrok/archive/1.7.4.tar.gz"
+  sha256 "3555b3b75eb811a9fd6e132bf61f3ef29871ac7a4322375def5030e5e629b8f8"
   revision 1
   depends_on "go" => :build
   depends_on :hg => :build
