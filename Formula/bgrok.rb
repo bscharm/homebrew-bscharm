@@ -8,6 +8,7 @@ class Bgrok < Formula
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
                           "--prefix=#{prefix}"
+    system "make", "release-client"
     bin.install "bin/bgrok"
   end
   test do
