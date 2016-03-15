@@ -11,6 +11,6 @@ class Bgrok < Formula
     bin.install "bin/bgrok"
   end
   test do
-    system "#{bin}/ngrok", "version"
+    system "#{bin}/bgrok", "version"
   end
 end
