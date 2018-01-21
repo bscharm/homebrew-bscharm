@@ -5,7 +5,7 @@ class Bgrok < Formula
   sha256 "3555b3b75eb811a9fd6e132bf61f3ef29871ac7a4322375def5030e5e629b8f8"
   revision 1
   depends_on "go" => :build
-  depends_on :hg => :build
+  depends_on "mercurial" => :build
   def install
     system "make", "release-client"
     bin.install "bin/bgrok"
